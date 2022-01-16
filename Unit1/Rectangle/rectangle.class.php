@@ -3,7 +3,7 @@
 /**
  * Author: Hieu Nguyen
  * Date: 1/11/2022
- * File: rectangleClass.php
+ * File: rectangle.class.php
  * Description: Creating Rectangle class
  */
 class Rectangle
@@ -11,6 +11,12 @@ class Rectangle
     //create private data members
     private $width;
     private $height;
+
+    //create a constructor
+    public function __construct($width, $height){
+        $this->width = $width;
+        $this->height = $height;
+    }
 
     //create public methods to get width and height
     public function getWidth(){

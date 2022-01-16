@@ -14,18 +14,20 @@
 </head>
 <body>
 <?php
-require_once 'rectangleClass.php';
+require_once 'rectangle.class.php';
 
 //create 2 objects from the Rectangle class
-$r1 = new Rectangle();
-$r2 = new Rectangle();
+$r1 = new Rectangle(30, 20);
+$r2 = new Rectangle(5, 10);
 
 //set width and height for r1 and r2
+/*
 $r1->setWidth(30);
 $r1->setHeight(20);
 
 $r2->setWidth(5);
 $r2->setHeight(10);
+*/
 
 //calculate and display r1's area and perimeter
 $area1 = $r1->calculateArea();
