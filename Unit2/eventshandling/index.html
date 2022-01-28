@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Event Handling in JavaScript</title>
+
+    <style>
+        html, body{
+            margin: 0;
+            height: 100%;
+        }
+    </style>
+
+    <script>
+        //create a global variable to store the entire div block whose id is “coord”.
+        let divCoordObj;
+
+        window.onload = function() {
+            divCoordObj = document.getElementById('coord');
+        };
+
+        //show coordinates of mouse pointer
+        // function showCoord(event){
+        //     // document.getElementById("coord").innerHTML = "(" + event.pageX + ", " + event.pageY + ")";
+        //     // document.getElementById("coord").style.left = event.pageX + 10 + "px";
+        //     // document.getElementById("coord").style.top = event.pageY - 10 + "px";
+        //     divCoordObj.innerHTML = "(" + event.pageX + ", " + event.pageY + ")";
+        //     divCoordObj.style.left = event.pageX + 10 + "px";
+        //     divCoordObj.style.top = event.pageY - 10 + "px";
+        // }
+        //
+        // //hide coordinates of mouse pointer
+        // function hideCoord() {
+        //     document.getElementById("coord").innerHTML = "";
+        // }
+
+        //show coordinates of mouse pointer
+        /**
+        document.onmousemove = function (){
+            divCoordObj.innerHTML = "(" + event.pageX + ", " + event.pageY + ")";
+            divCoordObj.style.left = event.pageX + 10 + "px";
+            divCoordObj.style.top = event.pageY - 10 + "px";
+        };
+
+        //show coordinates of mouse pointer
+        document.onmouseout = function (){
+            divCoordObj.innerHTML = "";
+        };
+         */
+
+        //show coordinates of mouse pointer
+        document.addEventListener("mousemove", function (event) {
+            divCoordObj.innerHTML = "(" + event.pageX + ", " + event.pageY + ")";
+            divCoordObj.style.left = event.pageX + 10 + "px";
+            divCoordObj.style.top = event.pageY - 10 + "px";
+        });
+
+        //hide coordinates
+        document.addEventListener("mouseout", function () {
+            divCoordObj.innerHTML = "";
+        });
+        //handle click event
+        document.addEventListener("click", function (event) {
+            alert("You clicked at" + "(" + event.pageX + ", " + event.pageY + ")");
+        });
+    </script>
+</head>
+<body>
+    <div id='coord' style='position: absolute'>Coord</div>
+</body>
+</html>
