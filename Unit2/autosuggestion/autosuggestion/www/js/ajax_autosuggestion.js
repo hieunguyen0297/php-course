@@ -59,7 +59,7 @@ function displayTitles(titles) {
     }
 
     let divContent = "";
-    //retrive the titles from the JSON doc and create a new span for each title
+    //retrieve the titles from the JSON doc and create a new span for each title
     for (let i = 0; i < titles.length; i++) {
         divContent += "<span id=s_" + i + " onclick='clickTitle(this)'>" + titles[i] + "</span>";
     }
@@ -73,7 +73,7 @@ function handleKeyUp(e) {
     // get the key event for different browsers
     e = (!e) ? window.event : e;
 
-    /* if the keystroke is not up arrow or down arrow key, 
+    /* if the keystroke is not up arrow or down arrow key,
      * call the suggest function and pass the content of the search box
      */
     if (e.keyCode !== 38 && e.keyCode !== 40) {
