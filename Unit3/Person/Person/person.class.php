@@ -33,5 +33,11 @@ class Person {
     public function setGender($gender) {
         $this->gender = $gender;
     }
+
+    //toString method is used to display the string representation of the object
+    public function toString(){
+        echo "Name: ". $this->getName() . "<br>";
+        echo "Gender: ". $this->getGender(). "<br>";
+    }
 }//end of class
 ?>

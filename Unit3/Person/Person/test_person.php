@@ -44,38 +44,15 @@
             require_once camelCaseToUnderscore($class_name) . '.class.php';
         });
 
-        //create a new GradStudent object
-        $g = new GradStudent("Kevin", "Male");
-
-        //Set its major, GPA and program
-        $g->setMajor("Informatics");
-        $g->setGPA(3.6);
-        $g->setProgram("MS");
-
-        //print the object
+        //create a GradStudent object and display its string representation
+        $g = new GradStudent("Kevin","Male","Informatics", 3.8, "Master");
         echo "<h3>Graduate Student</h3>";
-        echo "Name: ", $g->getName(), "<br>";
-        echo "Gender: ", $g->getGender(), "<br>";
-        echo "Major: ", $g->getMajor(), "<br>";
-        printf ("GPA: %.1f<br>", $g->getGPA());
-        echo "Program: ", $g->getProgram();
+        $g->toString();
 
-
-        //create new UnderStudent object
-        $s = new UndergradStudent("Judy", "Female");
-
-        //set major, GPA, and status;
-        $s ->setMajor("Informatics");
-        $s->setGPA(3.8);
-        $s->setStatus("Junior");
-
-        //print the object
+        //create an UndergradStudent object and display its string representation
+        $u = new UndergradStudent("Judy","Female","Informatics",3.8,"Junior");
         echo "<h3>Undergraduate Student</h3>";
-        echo "Name: ", $s->getName(), "<br>";
-        echo "Gender: ", $s->getGender(), "<br>";
-        echo "Major: ", $s->getMajor(), "<br>";
-        printf ("GPA: %.1f<br>", $s->getGPA());
-        echo "Status: ", $s->getStatus();
+        $u->toString();
 
 
         ?>
