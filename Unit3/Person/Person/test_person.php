@@ -54,6 +54,9 @@
         echo "<h3>Undergraduate Student</h3>";
         $u->toString();
 
+        
+        //display the number of students.
+        echo "<h3>" . Student::getStudentCount() . " students have been created.</h3>";
 
         ?>
 
