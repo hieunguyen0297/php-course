@@ -44,20 +44,39 @@
             require_once camelCaseToUnderscore($class_name) . '.class.php';
         });
 
-        //create a GradStudent object and display its string representation
-        $g = new GradStudent("Kevin","Male","Informatics", 3.8, "Master");
-        echo "<h3>Graduate Student</h3>";
-        $g->toString();
 
-        //create an UndergradStudent object and display its string representation
-        $u = new UndergradStudent("Judy","Female","Informatics",3.8,"Junior");
-        echo "<h3>Undergraduate Student</h3>";
-        $u->toString();
+        //create two GradStudent and two Undergrad objects
+        $g1 = new GradStudent ("Bryan Young", "Male", "Informatics", 3.7, "Master");
+        $g2 = new GradStudent ("Mellisa Rogers", "Female", "Engineering", 3.2, "Ph.D.");
+        $u1= new UndergradStudent("Ian Watson", "Male", "Library Science", 3.0, "Freshman");
+        $u2 = new UndergradStudent ("Kimberlee Wang", "Female", "Nursing", 2.8, "Junior");
 
-        
-        //display the number of students.
-        echo "<h3>" . Student::getStudentCount() . " students have been created.</h3>";
+        //create two MedicalStudent objects
+        $m1 = new MedicalStudent("Timothy Lindsey", "Male", "Family Medicine", 3.4, "MD", 11.0);
+        $m2 = new MedicalStudent("Amy Ling", "Female", "Anesthesiology", 3.8, "MD", 10.8);
 
+        //Create a new array to store all GraduateStudent and UndergradStudent objects.
+        $students = array($g1, $g2, $u1, $u2, $m1, $m2);
+
+        //display information by calling the toString method
+        foreach ($students as $student) {
+            printStudent($student);
+        }
+
+        function printStudent($student){
+            if(get_class($student) == "GradStudent"){
+                echo "<h3>Graduate Student</h3>";
+            }else if (get_class($student) == "UndergradStudent") {
+                echo "<h3>Undergraduate Student</h3>";
+            } else if (get_class($student) == "MedicalStudent") {
+                echo "<h3>Medical Student</h3>";
+            }
+            $student->toString();
+        }
+
+        echo "<h3>", GradStudent::getStudentCount(), " graduate students have been created.</h3>";
+        echo "<h3>", UndergradStudent::getStudentCount(), " undergraduate students have been created.</h3>";
+        echo "<h3>" , MedicalStudent::getStudentCount() , " medical students have been created.</h3>";
         ?>
 
     </body>

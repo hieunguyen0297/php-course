@@ -37,6 +37,5 @@ class UndergradStudent extends Student {
     public function toString() {
         parent::toString();
         echo "Status: ", $this->status;
-        echo "<br />There are " . self::getStudentCount() . " undergraduate students now.";
     }
 }
