@@ -6,7 +6,7 @@
  * Description: This class models a person. This is the parent class.
  */
 
-class Person {
+class Person1 {
 	//private data members for a person's name and gender
     private $name, $gender;
 
