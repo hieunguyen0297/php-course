@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e4dfa33c-3f57-4a2c-a1c5-fcff527ab674" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../games.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../games/demon_slayer.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../games/dying_light_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../games/fighting_climax.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../games/forspoken.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../games/gas_guzzlers_extreme.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../games/ghostwire.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../games/gran_turismo_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../games/grid_legends.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../games/harvest_moon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../games/jurassic_world_evolution_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../games/king_of_fighters_xv.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../games/madden_nfl_22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../games/mario_golf_super_rush.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../games/mario_kart_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../games/mario_tennies_aces.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../games/metroid_dread.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../games/monster_energy_supercross_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../games/mortal_kombat_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../games/rider_republic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../games/surviving_the_aftermath.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../games/the_great_ace_attorney_chronicles.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../games/tiny_tina_wonderland.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../games/two_point_campus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../games/wwe_2k20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../games/wwe_2k22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../games_db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../games_db2.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="26sujAjOEKAuu1AyZZzcdnzrJvB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e4dfa33c-3f57-4a2c-a1c5-fcff527ab674" name="Changes" comment="" />
+      <created>1648224748302</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648224748302</updated>
+      <workItem from="1648224749465" duration="30000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
